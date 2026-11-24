@@ -52,5 +52,5 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
 ## 10. Contact Us
 If you have any questions, feedback, or concerns regarding this Privacy Policy, please contact us:
 - **Developer:** AKP Saheer
-- **Email:** akpsaheer@gmail.com
+- **Email:** saheerakp.dev@gmail.com / akpsaheer@gmail.com
 - **Application:** Wise Dictionary
