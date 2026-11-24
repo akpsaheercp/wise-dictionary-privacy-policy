@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Wise Dictionary</title>
+  <style>
+    :root {
+      --primary-color: #0284c7;
+      --text-color: #1e293b;
+      --bg-color: #f8fafc;
+      --card-bg: #ffffff;
+      --border-color: #e2e8f0;
+      --secondary-text: #64748b;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --primary-color: #38bdf8;
+        --text-color: #f1f5f9;
+        --bg-color: #0f172a;
+        --card-bg: #1e293b;
+        --border-color: #334155;
+        --secondary-text: #94a3b8;
+      }
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text-color);
+      background-color: var(--bg-color);
+      padding: 24px 16px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 40px 32px;
+      border-radius: 16px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border-color);
+    }
+    .header {
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    .app-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      font-size: 1.1rem;
+      color: var(--secondary-text);
+    }
+    .metadata {
+      margin-top: 12px;
+      font-size: 0.9rem;
+      color: var(--secondary-text);
+    }
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      color: var(--text-color);
+      border-left: 4px solid var(--primary-color);
+      padding-left: 12px;
+    }
+    p {
+      margin-bottom: 16px;
+      color: var(--text-color);
+    }
+    ul {
+      margin-left: 24px;
+      margin-bottom: 16px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .highlight-box {
+      background-color: var(--bg-color);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 20px;
+    }
+    .contact-card {
+      background-color: var(--bg-color);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 24px;
+    }
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: var(--secondary-text);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="app-title">Privacy Policy</h1>
+      <div class="subtitle">Wise Dictionary (Arabic - Malayalam - English)</div>
+      <div class="metadata">
+        <strong>Effective Date:</strong> November 24, 2026<br>
+        <strong>Application:</strong> Wise Dictionary (Package: <code>com.wise.dictionary</code>)
+      </div>
+    </div>
+
+    <div class="highlight-box">
+      <strong>Summary:</strong> Wise Dictionary respects your privacy. We do not collect, store, sell, or share any personal information. All your search queries, bookmarks, and preferences stay completely offline and private on your device.
+    </div>
+
+    <h2>1. Introduction</h2>
+    <p>
+      This Privacy Policy applies to the mobile application <strong>Wise Dictionary</strong> (the "Application"), developed and maintained by <strong>AKP Saheer</strong> ("we", "us", or "our"). This document outlines our principles regarding user data, permissions, and security.
+    </p>
+
+    <h2>2. Information Collection and Use</h2>
+    <p>
+      Wise Dictionary is designed to function primarily as an offline reference tool:
+    </p>
+    <ul>
+      <li><strong>No Personal Data Collected:</strong> We do not ask for, gather, track, or store any personal data such as your name, email address, phone number, physical address, contacts, photos, or location.</li>
+      <li><strong>No Account Required:</strong> You can use all features of the Application without creating an account or registering personal credentials.</li>
+      <li><strong>No User Profiling or Analytics:</strong> We do not track your searches, usage patterns, or device identifiers for marketing or behavioral advertising.</li>
+    </ul>
+
+    <h2>3. Local Device Storage</h2>
+    <p>
+      Any data generated while using the Application is stored solely on your local device:
+    </p>
+    <ul>
+      <li><strong>Search History:</strong> Saved locally in the Application's private database on your device to help you quickly re-access previous lookups.</li>
+      <li><strong>Bookmarks & Favorites:</strong> Stored locally on your device.</li>
+      <li><strong>User Preferences:</strong> Theme settings (Dark/Light mode), font sizes, and display preferences are stored locally via SharedPreferences.</li>
+    </ul>
+    <p>
+      None of this local data is transmitted to external servers, cloud storage, or third parties.
+    </p>
+
+    <h2>4. Device Permissions</h2>
+    <p>
+      The Application requests only standard network permissions strictly necessary for downloading dictionary datasets:
+    </p>
+    <ul>
+      <li><code>android.permission.INTERNET</code>: Required solely when downloading dictionary database packages (such as Al-Manhal or Al-Mawrid) or original book page images on demand.</li>
+      <li><code>android.permission.ACCESS_NETWORK_STATE</code> and <code>ACCESS_WIFI_STATE</code>: Used to verify network connectivity before starting a download to avoid unnecessary failures.</li>
+    </ul>
+    <p>
+      The Application <strong>does not request</strong> access to sensitive device features such as Camera, Microphone, Contacts, Location, SMS, or Phone State.
+    </p>
+
+    <h2>5. Third-Party Services and Content Delivery</h2>
+    <p>
+      To provide large offline dictionary files and source page images without bloating the base application download, the Application downloads resources over secure encrypted HTTPS connections from trusted hosting infrastructure (Hugging Face / GitHub).
+    </p>
+    <p>
+      We do not use third-party advertising SDKs (e.g., Google AdMob), analytics SDKs, or social media trackers.
+    </p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>
+      Wise Dictionary does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. Since no personal data is collected from any user, children can safely use the Application for educational and reference purposes.
+    </p>
+
+    <h2>7. Security</h2>
+    <p>
+      We value your trust. All network transmissions for dictionary resource downloads are performed over secure HTTPS (TLS/SSL). Sensitive dictionary assets are stored securely within the Application's private internal storage directory.
+    </p>
+
+    <h2>8. Data Retention and Deletion</h2>
+    <p>
+      Because we do not store any user data on remote servers, we do not retain any personal data. You have full control over your local data:
+    </p>
+    <ul>
+      <li>You can clear your search history and bookmarks directly inside the Application's settings.</li>
+      <li>You can delete all application data and cache at any time via your device's <strong>Settings &rarr; Apps &rarr; Wise Dictionary &rarr; Storage &rarr; Clear Data</strong>, or by uninstalling the Application.</li>
+    </ul>
+
+    <h2>9. Changes to This Privacy Policy</h2>
+    <p>
+      We may update our Privacy Policy from time to time. Any changes will be posted on this webpage with an updated "Effective Date". We encourage you to review this page periodically for any updates.
+    </p>
+
+    <h2>10. Contact Us</h2>
+    <div class="contact-card">
+      <p>If you have any questions, feedback, or concerns regarding this Privacy Policy, please contact us:</p>
+      <p>
+        <strong>Developer:</strong> AKP Saheer<br>
+        <strong>Email:</strong> <a href="mailto:akpsaheer@gmail.com">akpsaheer@gmail.com</a><br>
+        <strong>Application:</strong> Wise Dictionary
+      </p>
+    </div>
+
+    <footer>
+      &copy; 2026 Wise Dictionary. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
